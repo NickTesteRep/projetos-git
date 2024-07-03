@@ -49,9 +49,9 @@ public class CalculandoCmd {
         
             case 2:
                 show.println("Subtracao escolhida!");
-                show.println("Digite o primeiro numero: ");
+                show.println("Digite o primeiro numero:");
                     int sub1 = scan.nextInt();
-                show.println("Digite o segundo numero: ");
+                show.println("Digite o segundo numero:");
                     int sub2 = scan.nextInt();
                 subtracao = sub1 - sub2;
                 show.println("O resultado da operacao é: " + subtracao);
@@ -59,14 +59,24 @@ public class CalculandoCmd {
 
             case 3:
                 show.println("Multiplicacao escolhida!");
-                show.println("Digite o primeiro numero: ");
+                show.println("Digite o primeiro numero:");
                     int mult1 = scan.nextInt();
-                show.println("Digite o segundo numero");
+                show.println("Digite o segundo numero:");
                     int mult2 = scan.nextInt();
                 multiplicacao = mult1 * mult2;
                 show.println("O resultado da operação é: " + multiplicacao);
                 break;
-            
+                
+            case 4:
+                show.println("Divisão escolhida!");
+                show.println("Digite o primeiro numero:");
+                    float div1 = scan.nextFloat();
+                show.println("Digite o segundo número:");
+                    float div2 = scan.nextFloat();
+                divisao = div1 / div2;
+                show.println("O resultado da operação é: " + divisao);
+                break;
+
             case 0: 
                 System.err.println("Programa encerrado.");
                 return;
