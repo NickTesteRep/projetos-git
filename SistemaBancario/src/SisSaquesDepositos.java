@@ -25,9 +25,7 @@ public class SisSaquesDepositos {
                 finally{
                     scan.close();
                 }
-                
-                
-                 
+                                        
             
         while (true) {
             
